@@ -43,7 +43,7 @@ namespace Practica.Cliente.Biblioteca
         }
 
         public string MostrarPersona
-        { get { return Apellido; } }
+        { get { return Apellido+" "+Nombre; } }
         
     }
 }

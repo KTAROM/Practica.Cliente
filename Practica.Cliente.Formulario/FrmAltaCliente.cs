@@ -13,18 +13,19 @@ namespace Practica.Cliente.Formulario
 {
     public partial class FrmAltaCliente : Form
     {
-        private FrmPersona _frmPersona;
-        public FrmAltaCliente(Form propietario)
+        public FrmPersona _frmPersona;
+        public FrmAltaCliente(Form propietario, Form Principal)
         {
-            this._frmPersona = new FrmPersona(this);
+            this._frmPersona = new FrmPersona(Principal);
             this.Owner = propietario;
             InitializeComponent();
         }
 
         private void btnVolver_Click(object sender, EventArgs e)
         {
+            Limpiar();
             this.Hide();
-            this.Owner.Show();
+            this.Owner.Owner.Show();
         }
         private void Limpiar()
         {
@@ -32,7 +33,7 @@ namespace Practica.Cliente.Formulario
             this.txtCuit.Text = string.Empty;
             this.txtEmail.Text = string.Empty;
             this.txtFechaNacimiento.Text = string.Empty;
-
+            this.cmbPersona.DataSource = null;
         }
         private void btnBorrar_Click(object sender, EventArgs e)
         {
@@ -52,6 +53,7 @@ namespace Practica.Cliente.Formulario
             cmbPersona.DisplayMember = "MostrarPersona";
             cmbPersona.ValueMember = "Apellido";
         }
+        
 
         private void btnConfirmar_Click(object sender, EventArgs e)
         {
@@ -66,7 +68,7 @@ namespace Practica.Cliente.Formulario
                         Cliente1 C1 = new Cliente1(P1.Nombre, P1.Apellido, P1.Direccion, Convert.ToInt32(this.txtId.Text), Convert.ToInt64(this.txtCuit.Text));
                         
 
-                    if (this.txtEmail.Text != null)
+                    if (this.txtEmail.Text != string.Empty)
                     {
                         C1.Email = this.txtEmail.Text;
                     }

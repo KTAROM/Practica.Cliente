@@ -52,7 +52,6 @@ namespace Practica.Cliente.Formulario
             this.lstClientes.Name = "lstClientes";
             this.lstClientes.Size = new System.Drawing.Size(238, 160);
             this.lstClientes.TabIndex = 1;
-           
             // 
             // btnAgregar
             // 
@@ -82,6 +81,7 @@ namespace Practica.Cliente.Formulario
             this.btnDetalle.TabIndex = 4;
             this.btnDetalle.Text = "Detalle";
             this.btnDetalle.UseVisualStyleBackColor = true;
+            this.btnDetalle.Click += new System.EventHandler(this.btnDetalle_Click);
             // 
             // FrmListarClientes
             // 

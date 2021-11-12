@@ -14,10 +14,11 @@ namespace Practica.Cliente.Formulario
     public partial class FrmListarClientes : Form
     {
         private List<Cliente1> _lstClientes;
-        private FrmAltaCliente _frmAltaCliente;
+        public FrmAltaCliente _frmAltaCliente;
+        
         public FrmListarClientes(Form propietario)
         {
-            this._frmAltaCliente = new FrmAltaCliente(this);
+            this._frmAltaCliente = new FrmAltaCliente(this, propietario);
             this._lstClientes = new List<Cliente1>();
             _lstClientes.Add(new Cliente1("Luis", "Perez", "Malavia 222", 0, 20145563329));
             _lstClientes.Add(new Cliente1("María", "Suarez", "Estomba 1509", 1, 27326659864));
@@ -25,6 +26,7 @@ namespace Practica.Cliente.Formulario
             _lstClientes.Add(new Cliente1("Roberto", "Gonzalez", "Cabildo 5699", 3, 20226301549));
             _lstClientes.Add(new Cliente1("Carla", "Pereira", "Mitre 1603", 4, 27385214470));
             this.Owner = propietario;
+            
             
             InitializeComponent();
         }
@@ -40,7 +42,7 @@ namespace Practica.Cliente.Formulario
         {
             lstClientes.DataSource = null;
             lstClientes.DataSource = this._lstClientes;
-            lstClientes.DisplayMember = "Mostrar";
+            lstClientes.DisplayMember = "MostrarPersona";
             lstClientes.ValueMember = "Apellido";
 
         }
@@ -58,7 +60,9 @@ namespace Practica.Cliente.Formulario
 
         private void btnDetalle_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            
+            Cliente1 ClienteSeleccionado = (Cliente1)lstClientes.SelectedItem;
+            MessageBox.Show(ClienteSeleccionado.MostrarCliente);
 
         }
 

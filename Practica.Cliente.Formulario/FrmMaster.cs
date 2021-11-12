@@ -31,7 +31,8 @@ namespace Practica.Cliente.Formulario
         private void btnDatosPersonales_Click(object sender, EventArgs e)
         {
             this.Hide();
-            this._frmPersona.Show();
+            this._frmListaClientes._frmAltaCliente._frmPersona.Show();
+            
         }
     }
 }

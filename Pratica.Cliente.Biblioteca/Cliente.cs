@@ -27,10 +27,12 @@ namespace Practica.Cliente.Biblioteca
         {
 
         }
-        private string Mostrar
+        public string MostrarCliente
         {
-            get{ return ("Cliente "+ this.Apellido); }
+            get{ return ("Cliente "+ this.Apellido+" "+this.Nombre+" \nCUIT: "+this.Cuit); }
         }
+
+
         public long Cuit
         {
             get { return this._Cuit; }
