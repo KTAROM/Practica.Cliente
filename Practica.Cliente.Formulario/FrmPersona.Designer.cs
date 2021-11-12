@@ -72,11 +72,11 @@ namespace Practica.Cliente.Formulario
             // lblTelefono
             // 
             this.lblTelefono.AutoSize = true;
-            this.lblTelefono.Location = new System.Drawing.Point(55, 243);
+            this.lblTelefono.Location = new System.Drawing.Point(20, 243);
             this.lblTelefono.Name = "lblTelefono";
-            this.lblTelefono.Size = new System.Drawing.Size(52, 13);
+            this.lblTelefono.Size = new System.Drawing.Size(99, 13);
             this.lblTelefono.TabIndex = 3;
-            this.lblTelefono.Text = "Teléfono:";
+            this.lblTelefono.Text = "Teléfono: (optativo)";
             // 
             // txtTelefono
             // 

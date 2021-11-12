@@ -53,51 +53,68 @@ namespace Practica.Cliente.Formulario
             cmbPersona.DisplayMember = "MostrarPersona";
             cmbPersona.ValueMember = "Apellido";
         }
-        
+
 
         private void btnConfirmar_Click(object sender, EventArgs e)
         {
-                            if (this.cmbPersona.SelectedItem!=null)
+
+            try
+            {
+                if (this.cmbPersona.SelectedItem != null)
                 {
-                    Persona P1 = (Persona)this.cmbPersona.SelectedItem;
-                ((FrmPersona)this._frmPersona).DeletePersona(P1);
-
-                    try
+                    if (!int.TryParse(txtId.Text, out int a) ||txtId.Text==string.Empty)
                     {
-
-                        Cliente1 C1 = new Cliente1(P1.Nombre, P1.Apellido, P1.Direccion, Convert.ToInt32(this.txtId.Text), Convert.ToInt64(this.txtCuit.Text));
+                        MessageBox.Show("Los valores ingresados son incorrectos");
+                        Limpiar();
                         
-
-                    if (this.txtEmail.Text != string.Empty)
-                    {
-                        C1.Email = this.txtEmail.Text;
                     }
-
-                    if (this.txtFechaNacimiento.Text!=string.Empty)
+                    else
                     {
-                        C1.FechaNacimiento = Convert.ToDateTime(this.txtFechaNacimiento.Text);
-                        MessageBox.Show("Se ingreso la fecha de nacimiento");
-                    }
-                    MessageBox.Show("Se registro el CUIT: " + C1.Cuit);
-                    ((FrmListarClientes)this.Owner).AgregarCliente(C1);
-                    Limpiar();
-                }
+                        if (!int.TryParse(txtCuit.Text, out a)|| txtCuit.Text == string.Empty)
+                        {
+                            MessageBox.Show("Los valores ingresados son incorrectos");
+                            Limpiar();
+                        }
+                        else
+                        {
+                            Persona P1 = (Persona)this.cmbPersona.SelectedItem;
+                            ((FrmPersona)this._frmPersona).DeletePersona(P1);
 
-                    catch(Exception ex)
-                    {
-                        MessageBox.Show(ex.Message);
-                    }
+                            Cliente1 C1 = new Cliente1(P1.Nombre, P1.Apellido, P1.Direccion, Convert.ToInt32(this.txtId.Text), Convert.ToInt64(this.txtCuit.Text));
 
+
+                            if (this.txtEmail.Text != string.Empty)
+                            {
+                                C1.Email = this.txtEmail.Text;
+                            }
+
+                            if (this.txtFechaNacimiento.Text != string.Empty)
+                            {
+                                C1.FechaNacimiento = Convert.ToDateTime(this.txtFechaNacimiento.Text);
+                                MessageBox.Show("Se ingreso la fecha de nacimiento");
+                            }
+                            MessageBox.Show("Se registro el CUIT: " + C1.Cuit);
+                            ((FrmListarClientes)this.Owner).AgregarCliente(C1);
+                            Limpiar();
+                        }
+                    }
                 }
                 else
-                { MessageBox.Show("Debe seleccionar los datos personales"); }
+                {
+                    MessageBox.Show("Debe seleccionar los datos personales");
+                }
             }
-            
-            
-           
-        }
 
+
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
     }
+}
+              
+   
 
 
     
