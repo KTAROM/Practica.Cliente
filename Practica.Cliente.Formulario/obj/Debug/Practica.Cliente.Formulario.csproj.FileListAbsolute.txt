@@ -1,0 +1,16 @@
+C:\Users\Romina\source\repos\Practica.Cliente\Practica.Cliente.Formulario\bin\Debug\Practica.Cliente.Formulario.exe.config
+C:\Users\Romina\source\repos\Practica.Cliente\Practica.Cliente.Formulario\bin\Debug\Practica.Cliente.Formulario.exe
+C:\Users\Romina\source\repos\Practica.Cliente\Practica.Cliente.Formulario\bin\Debug\Practica.Cliente.Formulario.pdb
+C:\Users\Romina\source\repos\Practica.Cliente\Practica.Cliente.Formulario\bin\Debug\Pratica.Cliente.Biblioteca.dll
+C:\Users\Romina\source\repos\Practica.Cliente\Practica.Cliente.Formulario\bin\Debug\Pratica.Cliente.Biblioteca.pdb
+C:\Users\Romina\source\repos\Practica.Cliente\Practica.Cliente.Formulario\obj\Debug\Practica.Cliente.Formulario.csproj.AssemblyReference.cache
+C:\Users\Romina\source\repos\Practica.Cliente\Practica.Cliente.Formulario\obj\Debug\Practica.Cliente.Formulario.FrmAltaCliente.resources
+C:\Users\Romina\source\repos\Practica.Cliente\Practica.Cliente.Formulario\obj\Debug\Practica.Cliente.Formulario.FrmListarClientes.resources
+C:\Users\Romina\source\repos\Practica.Cliente\Practica.Cliente.Formulario\obj\Debug\Practica.Cliente.Formulario.FrmMaster.resources
+C:\Users\Romina\source\repos\Practica.Cliente\Practica.Cliente.Formulario\obj\Debug\Practica.Cliente.Formulario.FrmPersona.resources
+C:\Users\Romina\source\repos\Practica.Cliente\Practica.Cliente.Formulario\obj\Debug\Practica.Cliente.Formulario.Properties.Resources.resources
+C:\Users\Romina\source\repos\Practica.Cliente\Practica.Cliente.Formulario\obj\Debug\Practica.Cliente.Formulario.csproj.GenerateResource.cache
+C:\Users\Romina\source\repos\Practica.Cliente\Practica.Cliente.Formulario\obj\Debug\Practica.Cliente.Formulario.csproj.CoreCompileInputs.cache
+C:\Users\Romina\source\repos\Practica.Cliente\Practica.Cliente.Formulario\obj\Debug\Practica.Cliente.Formulario.csproj.CopyComplete
+C:\Users\Romina\source\repos\Practica.Cliente\Practica.Cliente.Formulario\obj\Debug\Practica.Cliente.Formulario.exe
+C:\Users\Romina\source\repos\Practica.Cliente\Practica.Cliente.Formulario\obj\Debug\Practica.Cliente.Formulario.pdb
