@@ -7,30 +7,28 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Practica.Cliente.Biblioteca;
+using Practica.Cliente.Entidades; 
+using Practica.Cliente.Negocio;
 
 namespace Practica.Cliente.Formulario
 {
     public partial class FrmListarClientes : Form
     {
-        private List<Cliente1> _lstClientes;
+        
         public FrmAltaCliente _frmAltaCliente;
+        private ClienteServicio _ClienteServicio;
         
         public FrmListarClientes(Form propietario)
         {
             this._frmAltaCliente = new FrmAltaCliente(this, propietario);
-            this._lstClientes = new List<Cliente1>();
-            _lstClientes.Add(new Cliente1("Luis", "Perez", "Malavia 222", 0, 20145563329));
-            _lstClientes.Add(new Cliente1("María", "Suarez", "Estomba 1509", 1, 27326659864));
-            _lstClientes.Add(new Cliente1("Paula", "Martinez", "Plaza 3369", 2, 27406323312));
-            _lstClientes.Add(new Cliente1("Roberto", "Gonzalez", "Cabildo 5699", 3, 20226301549));
-            _lstClientes.Add(new Cliente1("Carla", "Pereira", "Mitre 1603", 4, 27385214470));
+            this._ClienteServicio = new ClienteServicio();
             this.Owner = propietario;
-            
-            
+           
+                                       
             InitializeComponent();
         }
 
+       
         private void btnVolver_Click(object sender, EventArgs e)
         {
             this.Hide();
@@ -40,8 +38,9 @@ namespace Practica.Cliente.Formulario
 
         private void InicializarLista()
         {
+            
             lstClientes.DataSource = null;
-            lstClientes.DataSource = this._lstClientes;
+            lstClientes.DataSource = this._ClienteServicio.GetListaClientes();
             lstClientes.DisplayMember = "MostrarPersona";
             lstClientes.ValueMember = "Apellido";
 
@@ -68,7 +67,7 @@ namespace Practica.Cliente.Formulario
 
         public void AgregarCliente(Cliente1 C1)
         {
-            this._lstClientes.Add(C1);
+            _ClienteServicio.AddCliente(C1);
             InicializarLista();
             
         }

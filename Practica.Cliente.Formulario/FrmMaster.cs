@@ -14,11 +14,12 @@ namespace Practica.Cliente.Formulario
     {
         private FrmListarClientes _frmListaClientes;
         public FrmPersona _frmPersona;
+        public FrmAltaCuenta _frmAltaCuenta;
         public FrmMaster()
         {
             this._frmListaClientes = new FrmListarClientes(this);
             this._frmPersona = new FrmPersona(this);
-
+            this._frmAltaCuenta = new FrmAltaCuenta(this);
             InitializeComponent();
         }
 
@@ -33,6 +34,13 @@ namespace Practica.Cliente.Formulario
             this.Hide();
             this._frmListaClientes._frmAltaCliente._frmPersona.Show();
             
+        }
+
+        private void btnCuentas_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            this._frmAltaCuenta.Show();
+
         }
     }
 }

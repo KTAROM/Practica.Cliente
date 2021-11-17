@@ -30,28 +30,19 @@ namespace Practica.Cliente.Formulario
         private void InitializeComponent()
         {
             this.btnLstClientes = new System.Windows.Forms.Button();
-            this.btnModificarClientes = new System.Windows.Forms.Button();
             this.btnPersona = new System.Windows.Forms.Button();
+            this.btnCuentas = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnLstClientes
             // 
-            this.btnLstClientes.Location = new System.Drawing.Point(33, 56);
+            this.btnLstClientes.Location = new System.Drawing.Point(34, 79);
             this.btnLstClientes.Name = "btnLstClientes";
             this.btnLstClientes.Size = new System.Drawing.Size(139, 23);
             this.btnLstClientes.TabIndex = 0;
-            this.btnLstClientes.Text = "Lista Clientes";
+            this.btnLstClientes.Text = "Clientes";
             this.btnLstClientes.UseVisualStyleBackColor = true;
             this.btnLstClientes.Click += new System.EventHandler(this.btnListaCliente_Click);
-            // 
-            // btnModificarClientes
-            // 
-            this.btnModificarClientes.Location = new System.Drawing.Point(33, 140);
-            this.btnModificarClientes.Name = "btnModificarClientes";
-            this.btnModificarClientes.Size = new System.Drawing.Size(139, 23);
-            this.btnModificarClientes.TabIndex = 4;
-            this.btnModificarClientes.Text = "Modificar Clientes";
-            this.btnModificarClientes.UseVisualStyleBackColor = true;
             // 
             // btnPersona
             // 
@@ -63,13 +54,23 @@ namespace Practica.Cliente.Formulario
             this.btnPersona.UseVisualStyleBackColor = true;
             this.btnPersona.Click += new System.EventHandler(this.btnDatosPersonales_Click);
             // 
+            // btnCuentas
+            // 
+            this.btnCuentas.Location = new System.Drawing.Point(34, 148);
+            this.btnCuentas.Name = "btnCuentas";
+            this.btnCuentas.Size = new System.Drawing.Size(139, 23);
+            this.btnCuentas.TabIndex = 6;
+            this.btnCuentas.Text = "Cuentas";
+            this.btnCuentas.UseVisualStyleBackColor = true;
+            this.btnCuentas.Click += new System.EventHandler(this.btnCuentas_Click);
+            // 
             // FrmMaster
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(208, 286);
+            this.Controls.Add(this.btnCuentas);
             this.Controls.Add(this.btnPersona);
-            this.Controls.Add(this.btnModificarClientes);
             this.Controls.Add(this.btnLstClientes);
             this.Name = "FrmMaster";
             this.Text = "Bienvenido a la Aplicación!!";
@@ -80,8 +81,8 @@ namespace Practica.Cliente.Formulario
         #endregion
 
         private System.Windows.Forms.Button btnLstClientes;
-        private System.Windows.Forms.Button btnModificarClientes;
         private System.Windows.Forms.Button btnPersona;
+        private System.Windows.Forms.Button btnCuentas;
     }
 }
 

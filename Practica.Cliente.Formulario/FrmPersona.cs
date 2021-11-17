@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Practica.Cliente.Biblioteca;
+using Practica.Cliente.Entidades; 
 
 namespace Practica.Cliente.Formulario
 {

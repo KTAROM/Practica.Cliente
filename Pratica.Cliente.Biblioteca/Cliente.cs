@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Practica.Cliente.Biblioteca
+namespace Practica.Cliente.Entidades
 {
     public class Cliente1:Persona
     {
@@ -21,7 +21,7 @@ namespace Practica.Cliente.Biblioteca
         }
         public Cliente1(string Nombre, string Apellido, string Direccion) : base(Nombre, Apellido, Direccion)
         {
-           
+          
         }
         public Cliente1()
         {
@@ -29,9 +29,13 @@ namespace Practica.Cliente.Biblioteca
         }
         public string MostrarCliente
         {
-            get{ return ("Cliente "+ this.Apellido+" "+this.Nombre+" \nCUIT: "+this.Cuit); }
+            get{ return ("Cliente "+this.Apellido+" "+this.Nombre+" \nCUIT: "+this.Cuit); }
         }
 
+        public int Id
+        {
+            get { return this._Id; }
+        }
 
         public long Cuit
         {

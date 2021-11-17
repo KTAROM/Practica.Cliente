@@ -14,3 +14,8 @@ C:\Users\Romina\source\repos\Practica.Cliente\Practica.Cliente.Formulario\obj\De
 C:\Users\Romina\source\repos\Practica.Cliente\Practica.Cliente.Formulario\obj\Debug\Practica.Cliente.Formulario.csproj.CopyComplete
 C:\Users\Romina\source\repos\Practica.Cliente\Practica.Cliente.Formulario\obj\Debug\Practica.Cliente.Formulario.exe
 C:\Users\Romina\source\repos\Practica.Cliente\Practica.Cliente.Formulario\obj\Debug\Practica.Cliente.Formulario.pdb
+C:\Users\Romina\source\repos\Practica.Cliente\Practica.Cliente.Formulario\bin\Debug\Practica.liente.Negocio.dll
+C:\Users\Romina\source\repos\Practica.Cliente\Practica.Cliente.Formulario\bin\Debug\Practica.Cliente.AccesoDatos.dll
+C:\Users\Romina\source\repos\Practica.Cliente\Practica.Cliente.Formulario\bin\Debug\Practica.liente.Negocio.pdb
+C:\Users\Romina\source\repos\Practica.Cliente\Practica.Cliente.Formulario\bin\Debug\Practica.Cliente.AccesoDatos.pdb
+C:\Users\Romina\source\repos\Practica.Cliente\Practica.Cliente.Formulario\obj\Debug\Practica.Cliente.Formulario.FrmAltaCuenta.resources

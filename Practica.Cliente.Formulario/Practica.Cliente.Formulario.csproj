@@ -52,6 +52,12 @@
     <Compile Include="FrmAltaCliente.Designer.cs">
       <DependentUpon>FrmAltaCliente.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmAltaCuenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAltaCuenta.Designer.cs">
+      <DependentUpon>FrmAltaCuenta.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmListarClientes.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -75,6 +81,9 @@
     <Compile Include="Validaciones.cs" />
     <EmbeddedResource Include="FrmAltaCliente.resx">
       <DependentUpon>FrmAltaCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAltaCuenta.resx">
+      <DependentUpon>FrmAltaCuenta.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmListarClientes.resx">
       <DependentUpon>FrmListarClientes.cs</DependentUpon>
@@ -108,9 +117,13 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Pratica.Cliente.Biblioteca\Practica.Cliente.Biblioteca.csproj">
+    <ProjectReference Include="..\Practica.liente.Negocio\Practica.Cliente.Negocio.csproj">
+      <Project>{775752e0-2c39-4a42-9db6-33d5db2dbebf}</Project>
+      <Name>Practica.Cliente.Negocio</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Pratica.Cliente.Biblioteca\Practica.Cliente.Entidades.csproj">
       <Project>{3d27e212-4d29-46af-9595-915f1da138d2}</Project>
-      <Name>Practica.Cliente.Biblioteca</Name>
+      <Name>Practica.Cliente.Entidades</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
