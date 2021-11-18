@@ -11,17 +11,21 @@ namespace Practica.Cliente.Negocio
 {
     public class CuentaServicio
     {
-        private Mapeador _Mapeador;
+        private MapeadorCuenta _Mapeador;
+     
+       
         public CuentaServicio()
         {
-            _Mapeador = new Mapeador();
+            this._Mapeador = new MapeadorCuenta();
+           
         }
 
         public List<Cuenta> GetListaCuentas()
         {
-            return _Mapeador.TraerCuentas();
+          
+            return   _Mapeador.TraerCuentas();
         }
 
-     
+    
     }
 }

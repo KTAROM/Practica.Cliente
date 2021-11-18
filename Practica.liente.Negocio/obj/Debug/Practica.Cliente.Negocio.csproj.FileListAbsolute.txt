@@ -9,3 +9,14 @@ C:\Users\Romina\source\repos\Practica.Cliente\Practica.liente.Negocio\obj\Debug\
 C:\Users\Romina\source\repos\Practica.Cliente\Practica.liente.Negocio\obj\Debug\Practica.Cliente.Negocio.csproj.CopyComplete
 C:\Users\Romina\source\repos\Practica.Cliente\Practica.liente.Negocio\obj\Debug\Practica.liente.Negocio.dll
 C:\Users\Romina\source\repos\Practica.Cliente\Practica.liente.Negocio\obj\Debug\Practica.liente.Negocio.pdb
+C:\Users\kta_r\Documents\GitHub\Practica.Cliente\Practica.liente.Negocio\bin\Debug\Practica.liente.Negocio.dll
+C:\Users\kta_r\Documents\GitHub\Practica.Cliente\Practica.liente.Negocio\bin\Debug\Practica.liente.Negocio.pdb
+C:\Users\kta_r\Documents\GitHub\Practica.Cliente\Practica.liente.Negocio\bin\Debug\Practica.Cliente.AccesoDatos.dll
+C:\Users\kta_r\Documents\GitHub\Practica.Cliente\Practica.liente.Negocio\bin\Debug\Pratica.Cliente.Biblioteca.dll
+C:\Users\kta_r\Documents\GitHub\Practica.Cliente\Practica.liente.Negocio\bin\Debug\Practica.Cliente.AccesoDatos.pdb
+C:\Users\kta_r\Documents\GitHub\Practica.Cliente\Practica.liente.Negocio\bin\Debug\Pratica.Cliente.Biblioteca.pdb
+C:\Users\kta_r\Documents\GitHub\Practica.Cliente\Practica.liente.Negocio\obj\Debug\Practica.Cliente.Negocio.csproj.AssemblyReference.cache
+C:\Users\kta_r\Documents\GitHub\Practica.Cliente\Practica.liente.Negocio\obj\Debug\Practica.Cliente.Negocio.csproj.CoreCompileInputs.cache
+C:\Users\kta_r\Documents\GitHub\Practica.Cliente\Practica.liente.Negocio\obj\Debug\Practica.Cliente.Negocio.csproj.CopyComplete
+C:\Users\kta_r\Documents\GitHub\Practica.Cliente\Practica.liente.Negocio\obj\Debug\Practica.liente.Negocio.dll
+C:\Users\kta_r\Documents\GitHub\Practica.Cliente\Practica.liente.Negocio\obj\Debug\Practica.liente.Negocio.pdb

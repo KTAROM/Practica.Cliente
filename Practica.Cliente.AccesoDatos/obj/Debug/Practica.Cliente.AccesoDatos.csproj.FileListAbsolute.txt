@@ -7,3 +7,12 @@ C:\Users\Romina\source\repos\Practica.Cliente\Practica.Cliente.AccesoDatos\obj\D
 C:\Users\Romina\source\repos\Practica.Cliente\Practica.Cliente.AccesoDatos\obj\Debug\Practica.Cliente.AccesoDatos.csproj.CopyComplete
 C:\Users\Romina\source\repos\Practica.Cliente\Practica.Cliente.AccesoDatos\obj\Debug\Practica.Cliente.AccesoDatos.dll
 C:\Users\Romina\source\repos\Practica.Cliente\Practica.Cliente.AccesoDatos\obj\Debug\Practica.Cliente.AccesoDatos.pdb
+C:\Users\kta_r\Documents\GitHub\Practica.Cliente\Practica.Cliente.AccesoDatos\bin\Debug\Practica.Cliente.AccesoDatos.dll
+C:\Users\kta_r\Documents\GitHub\Practica.Cliente\Practica.Cliente.AccesoDatos\bin\Debug\Practica.Cliente.AccesoDatos.pdb
+C:\Users\kta_r\Documents\GitHub\Practica.Cliente\Practica.Cliente.AccesoDatos\bin\Debug\Pratica.Cliente.Biblioteca.dll
+C:\Users\kta_r\Documents\GitHub\Practica.Cliente\Practica.Cliente.AccesoDatos\bin\Debug\Pratica.Cliente.Biblioteca.pdb
+C:\Users\kta_r\Documents\GitHub\Practica.Cliente\Practica.Cliente.AccesoDatos\obj\Debug\Practica.Cliente.AccesoDatos.csproj.AssemblyReference.cache
+C:\Users\kta_r\Documents\GitHub\Practica.Cliente\Practica.Cliente.AccesoDatos\obj\Debug\Practica.Cliente.AccesoDatos.csproj.CoreCompileInputs.cache
+C:\Users\kta_r\Documents\GitHub\Practica.Cliente\Practica.Cliente.AccesoDatos\obj\Debug\Practica.Cliente.AccesoDatos.csproj.CopyComplete
+C:\Users\kta_r\Documents\GitHub\Practica.Cliente\Practica.Cliente.AccesoDatos\obj\Debug\Practica.Cliente.AccesoDatos.dll
+C:\Users\kta_r\Documents\GitHub\Practica.Cliente\Practica.Cliente.AccesoDatos\obj\Debug\Practica.Cliente.AccesoDatos.pdb

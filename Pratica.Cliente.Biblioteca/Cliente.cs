@@ -13,11 +13,13 @@ namespace Practica.Cliente.Entidades
         private string _Email;
         private DateTime _FechaNacimiento;
         private bool _Activo;
+        private Cuenta _Cuenta;
 
         public Cliente1(string Nombre, string Apellido, string Direccion, int Id, long Cuit): base(Nombre,Apellido,Direccion)
         {
             this._Id = Id;
             this._Cuit = Cuit;
+            this._Cuenta = new Cuenta();
         }
         public Cliente1(string Nombre, string Apellido, string Direccion) : base(Nombre, Apellido, Direccion)
         {
@@ -50,6 +52,10 @@ namespace Practica.Cliente.Entidades
         {
             set { this._FechaNacimiento = value; }
         }
-       
+       public Cuenta Cuenta
+        {
+            get { return this._Cuenta; }
+            set { this._Cuenta = value; }
+        }
     }
 }

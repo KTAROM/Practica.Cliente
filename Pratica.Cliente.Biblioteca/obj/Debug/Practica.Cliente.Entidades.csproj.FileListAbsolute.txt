@@ -4,3 +4,9 @@ C:\Users\Romina\source\repos\Practica.Cliente\Pratica.Cliente.Biblioteca\obj\Deb
 C:\Users\Romina\source\repos\Practica.Cliente\Pratica.Cliente.Biblioteca\obj\Debug\Practica.Cliente.Entidades.csproj.CoreCompileInputs.cache
 C:\Users\Romina\source\repos\Practica.Cliente\Pratica.Cliente.Biblioteca\obj\Debug\Pratica.Cliente.Biblioteca.dll
 C:\Users\Romina\source\repos\Practica.Cliente\Pratica.Cliente.Biblioteca\obj\Debug\Pratica.Cliente.Biblioteca.pdb
+C:\Users\kta_r\Documents\GitHub\Practica.Cliente\Pratica.Cliente.Biblioteca\bin\Debug\Pratica.Cliente.Biblioteca.dll
+C:\Users\kta_r\Documents\GitHub\Practica.Cliente\Pratica.Cliente.Biblioteca\bin\Debug\Pratica.Cliente.Biblioteca.pdb
+C:\Users\kta_r\Documents\GitHub\Practica.Cliente\Pratica.Cliente.Biblioteca\obj\Debug\Practica.Cliente.Entidades.csproj.AssemblyReference.cache
+C:\Users\kta_r\Documents\GitHub\Practica.Cliente\Pratica.Cliente.Biblioteca\obj\Debug\Practica.Cliente.Entidades.csproj.CoreCompileInputs.cache
+C:\Users\kta_r\Documents\GitHub\Practica.Cliente\Pratica.Cliente.Biblioteca\obj\Debug\Pratica.Cliente.Biblioteca.dll
+C:\Users\kta_r\Documents\GitHub\Practica.Cliente\Pratica.Cliente.Biblioteca\obj\Debug\Pratica.Cliente.Biblioteca.pdb

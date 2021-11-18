@@ -51,6 +51,8 @@ namespace Practica.Cliente.Formulario
             this.cmbCliente.Name = "cmbCliente";
             this.cmbCliente.Size = new System.Drawing.Size(121, 21);
             this.cmbCliente.TabIndex = 0;
+            this.cmbCliente.SelectedIndexChanged += new System.EventHandler(this.cmbCliente_Selct);
+           
             this.cmbCliente.Click += new System.EventHandler(this.cmbCliente_Click);
             // 
             // lblCliente

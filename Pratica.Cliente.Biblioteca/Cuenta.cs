@@ -21,7 +21,35 @@ namespace Practica.Cliente.Entidades
         {
 
         }
+        public Cuenta(int Id, int NroCuenta, string Descripcion, double Saldo, DateTime FechaApertura, bool Activo, int idCliente)
+        {
+            this._Id = Id;
+            this._NroCuenta = NroCuenta;
+            this._Descripcion = Descripcion;
+            this._Saldo = Saldo;
+            this._FechaApertura = FechaApertura;
+            this._Activo = Activo;
+            this._IdCliente = IdCliente;
 
+        }
 
+        public int IdCliente
+        {
+            get { return this._IdCliente; }
+        }
+        public string Descripcion
+        {
+            get { return this._Descripcion; }
+        }
+        public double Saldo
+        { get { return this._Saldo; } }
+
+        public DateTime FechaApertura
+        {
+            get { return this._FechaApertura; }
+        }
+
+        public int NroCuenta
+        { get { return this._NroCuenta; } }
     }
 }

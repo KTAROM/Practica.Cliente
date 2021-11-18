@@ -7,14 +7,13 @@ using Practica.Cliente.Entidades;
 
 namespace Practica.Cliente.AccesoDatos
 {
-    public class Mapeador
+    public class MapeadorCliente
     {
         private List<Cliente1> _lstClientes;
-        private List<Cuenta> _lstCuentas;
-
-        public Mapeador()
+       
+        public MapeadorCliente()
         {
-            this._lstCuentas = new List<Cuenta>();
+           
             this._lstClientes = new List<Cliente1>();
             _lstClientes.Add(new Cliente1("Luis", "Perez", "Malavia 222", 0, 20145563329));
             _lstClientes.Add(new Cliente1("María", "Suarez", "Estomba 1509", 1, 27326659864));
@@ -35,10 +34,7 @@ namespace Practica.Cliente.AccesoDatos
             _lstClientes.Add(c);
         }
 
-        public List<Cuenta> TraerCuentas()
-        {
-            return this._lstCuentas;
-        }
+       
 
     }
 }
